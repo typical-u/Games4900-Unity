@@ -2123,6 +2123,7 @@ GameObject:
   - component: {fileID: 2088371730}
   - component: {fileID: 2088371729}
   - component: {fileID: 2088371728}
+  - component: {fileID: 2088371732}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2224,6 +2225,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2088371732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088371727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d9f18dbbfeaa0408b2a2cfd66efa78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CountdownChallenge
+  startSeconds: 10
+  targetObject: {fileID: 2088371727}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
